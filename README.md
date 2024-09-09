@@ -24,23 +24,34 @@ mkdir -p nillion/accuser && sudo docker run -v ./nillion/accuser:/var/tmp nillio
 cat ~/nillion/accuser/credentials.json
 ```
 
+keep your key details safe
+
 # note
-IMPORTANT 
+IMPORTANT - Before Proceeding grab you faucet, without faucet you will get false registration.
 
-Save Your Private Key and Public Address
-Grab Faucet Daily in Nillion Verifier address
-
-Add verifier details in Nillion Website in Linux section
+faucet link
 ```console
-https://verifier.nillion.com/
+https://faucet.testnet.nillion.com/
 ```
 
-Wait for 1-2 Hours then
+# Binding nillion verifier node with nillion main wallet
+- Go to Nillion Verifier to Bind the node with main kepler wallet, (Linux Section)
+- ```console
+  https://verifier.nillion.com/verifier
+  ```
+- Save Your Private Key and Public Address in Nillion Verifier docs in (Step 5)
 
-go to docs and step 7(Running Acc user)
+Grab Faucet Daily in Nillion Verifier address
+
+
+IMP - Wait for 1-2 Hours then
+
+GO to docs section in Nillion Verifier and step 7(Running Acc user)
 ```console
 https://verifier.nillion.com/verifier
 ```
-run the code -- you should get true, if you are getting false create a new kwplr account and try again.
 
-After true , go to secrets and add the main keplr wallet address and your palm photo
+- After getting true , go to Secrets Section in Nillion Verifier website and add the main keplr wallet address and your palm photo.
+
+- - During running the code .--> you should get true, if you are getting false create a new keplr account and try again with the old node details.
+
