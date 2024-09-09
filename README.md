@@ -5,7 +5,7 @@ sudo apt update
 ```
 # to install docker 
 ```console
-&& sudo apt install curl && curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
+sudo apt install curl && curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 ```
 # pull the nillion images
 
